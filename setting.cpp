@@ -1,4 +1,3 @@
-#include <bits/stdc++.h>
 // -------------------------------------------------------------------------------------------------------
 //
 //
@@ -33,26 +32,29 @@
 //       ##==------------------------=*##*#+.                    :-----------------=#=
 //       ##****+++++++++++++++++++++++==++========================+++++++++++++++++*#+
 //
-//
-//
+//       tranphuocphong2409@gmail.com
+//       EzraT : Tran Phuoc Phong 
 // ----------------------------------------------------------------------------------------------------------
-#define lls unsigned long long 
+#include <bits/stdc++.h>
 #define ll long long
+#define ii pair<int,int>
+#define fs first
+#define sc second
+#define EzraT int main
+#define Map map<int,int> 
+#define Vector  vector<int> 
+#define nn "\n"
 #define GCD(a, b) __gcd(a,b) 
 #define LCM(a, b) (a*b)/__gcd(a,b) 
-#define ii pair<int,int> 
-#define fs first
-#define sc second 
-#define FOR(i, a, b, c) for(int i = a; i <= b ; i += c)
-#define maxn 100001 
-#define nn "\n"
+#define lls unsigned long long 
 using namespace std;
-
-int main() {
-    freopen("TEST.INP", "r", stdin);
-    freopen("TEST.OUT", "w", stdout);
+const int MOD = 1e9 + 7;
+const int MAXN = 1e5 + 5;
+EzraT(){
     ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    
-    return 0;
+    cin.tie(0);
+    cout.tie(0);
+    freopen("TEST.inp", "r", stdin);
+    freopen("TEST.out", "w", stdout);
 }
+    
